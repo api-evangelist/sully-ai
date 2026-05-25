@@ -1,0 +1,130 @@
+aid: sully-ai
+name: Sully AI
+description: >-
+  Sully AI is a US-based healthcare AI company that ships a portfolio of
+  "AI employees" for clinical and administrative work — including an AI
+  Scribe that turns patient conversations into structured, HIPAA-compliant
+  notes, an AI Receptionist for scheduling and front desk, an AI Triage
+  Nurse for patient engagement, an AI Medical Coder for autonomous ICD-10
+  coding, an AI Pharmacist, and an AI Consultant for chart prep. The
+  platform integrates with Epic, Cerner, MEDITECH, Athenahealth,
+  Allscripts, Veradigm, and 50+ other EHRs. Beyond the end-user products,
+  Sully exposes a public REST API covering audio transcription (file
+  upload and real-time WebSocket streaming), clinical note generation
+  (SOAP and custom templates), medical coding extraction (ICD-10, CPT,
+  SNOMED), note templates, and a medical consensus alpha feature, with
+  asynchronous results delivered over webhooks. Official Apache-2.0
+  licensed TypeScript/Node and Python SDKs are published under the
+  sullyai GitHub org, and an Odiggo-maintained sully-api-demo repo
+  showcases end-to-end usage. Sully's revenue model is SaaS subscriptions
+  to healthcare providers, hospitals, and digital health platforms.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Healthcare
+  - Health Tech
+  - Medical AI
+  - Clinical AI
+  - AI Scribe
+  - Ambient Scribe
+  - Clinical Documentation
+  - SOAP Notes
+  - Medical Coding
+  - ICD-10
+  - CPT
+  - SNOMED
+  - Speech to Text
+  - Audio Transcription
+  - Real Time Streaming
+  - WebSockets
+  - Webhooks
+  - EHR Integration
+  - Epic
+  - Cerner
+  - HIPAA
+  - AI Agents
+  - Workflow Automation
+  - Healthcare Automation
+url: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis:
+  - aid: sully-ai:scribe
+    name: Sully AI Scribe API
+    description: >-
+      REST API for ambient clinical documentation: upload audio or open a
+      WebSocket stream, generate structured SOAP / custom-template clinical
+      notes, extract medical codes (ICD-10, CPT, SNOMED), and receive
+      asynchronous job results via webhooks.
+    humanURL: https://docs.sully.ai
+    baseURL: https://api.sully.ai
+    tags:
+      - AI Scribe
+      - Clinical Notes
+      - Audio Transcription
+      - Medical Coding
+      - Webhooks
+    properties:
+      - type: Documentation
+        url: https://docs.sully.ai
+      - type: Authentication
+        url: https://docs.sully.ai/api-reference/getting-started/authentication
+      - type: Quickstart
+        url: https://docs.sully.ai/documentation/getting-started/quickstart
+      - type: SDK
+        url: https://github.com/sullyai/sullyai-node
+      - type: SDK
+        url: https://github.com/sullyai/sullyai-python
+      - type: SampleCode
+        url: https://github.com/Odiggo/sully-api-demo
+      - type: Webhooks
+        url: https://docs.sully.ai/documentation/guides/webhooks
+      - type: EHRIntegration
+        url: https://docs.sully.ai/documentation/integrations/ehr
+      - type: ErrorHandling
+        url: https://docs.sully.ai/documentation/production/error-handling
+      - type: Security
+        url: https://docs.sully.ai/documentation/production/security
+      - type: Support
+        url: mailto:support@sully.ai
+common:
+  - type: Website
+    url: https://www.sully.ai
+  - type: AboutUs
+    url: https://www.sully.ai/about-us
+  - type: Products
+    url: https://www.sully.ai/products
+  - type: AIScribe
+    url: https://www.sully.ai/ai-scribe
+  - type: AIReceptionist
+    url: https://www.sully.ai/ai-receptionist
+  - type: AINurse
+    url: https://www.sully.ai/ai-nurse
+  - type: AIMedicalCoder
+    url: https://www.sully.ai/ai-medical-coder
+  - type: AIPharmacist
+    url: https://www.sully.ai/ai-pharmacist
+  - type: AIConsultant
+    url: https://www.sully.ai/ai-consultant
+  - type: Documentation
+    url: https://docs.sully.ai
+  - type: Blog
+    url: https://www.sully.ai/blog
+  - type: Labs
+    url: https://www.sully.ai/labs
+  - type: Careers
+    url: https://jobs.ashbyhq.com/sully-ai
+  - type: Contact
+    url: https://www.sully.ai/demo-em
+  - type: Support
+    url: mailto:support@sully.ai
+  - type: GitHub
+    url: https://github.com/sullyai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sullyai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
