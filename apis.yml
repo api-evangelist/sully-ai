@@ -72,11 +72,11 @@ apis:
         url: https://docs.sully.ai
       - type: Authentication
         url: https://docs.sully.ai/api-reference/getting-started/authentication
-      - type: Quickstart
+      - type: GettingStarted
         url: https://docs.sully.ai/documentation/getting-started/quickstart
-      - type: SDK
+      - type: SDKs
         url: https://github.com/sullyai/sullyai-node
-      - type: SDK
+      - type: SDKs
         url: https://github.com/sullyai/sullyai-python
       - type: SampleCode
         url: https://github.com/Odiggo/sully-api-demo
