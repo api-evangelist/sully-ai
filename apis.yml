@@ -91,6 +91,10 @@ apis:
       - type: Support
         url: mailto:support@sully.ai
 common:
+  - type: TrustCenter
+    url: security/sully-ai-trust-center.yml
+  - type: DomainSecurity
+    url: security/sully-ai-domain-security.yml
   - type: Website
     url: https://www.sully.ai
   - type: AboutUs
