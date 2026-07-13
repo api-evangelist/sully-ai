@@ -2,13 +2,14 @@
   "repo": "sully-ai",
   "feeds": [
     {
-      "source": "https://www.sully.ai/blog",
-      "feed_url": "",
-      "saved": 1,
-      "method": "agent-scrape"
+      "source": "https://docs.sully.ai",
+      "feed_url": "https://docs.sully.ai",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T13:12:34Z",
-  "post_count": 4,
-  "agent_pulled": "2026-06-27"
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5,
+  "agent_pulled": "2026-07-04"
 }
