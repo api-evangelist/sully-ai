@@ -46,6 +46,31 @@ tags:
   - ICD-10
   - CPT
   - SNOMED
+  - Speech-to-Text
+  - Audio Transcription
+  - Real-Time Streaming
+  - WebSockets
+  - Webhook
+  - EHR Integration
+  - Epic
+  - Cerner
+  - HIPAA
+  - AI Agents
+  - Workflow-Automation
+  - Healthcare Automation
+tags_raw:
+  - Healthcare
+  - Health Tech
+  - Medical AI
+  - Clinical AI
+  - AI Scribe
+  - Ambient Scribe
+  - Clinical Documentation
+  - SOAP Notes
+  - Medical Coding
+  - ICD-10
+  - CPT
+  - SNOMED
   - Speech to Text
   - Audio Transcription
   - Real Time Streaming
@@ -73,6 +98,12 @@ apis:
     humanURL: https://docs.sully.ai
     baseURL: https://api.sully.ai
     tags:
+      - AI Scribe
+      - Clinical Notes
+      - Audio Transcription
+      - Medical Coding
+      - Webhook
+    tags_raw:
       - AI Scribe
       - Clinical Notes
       - Audio Transcription
