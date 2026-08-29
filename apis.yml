@@ -19,6 +19,17 @@ description: >-
   showcases end-to-end usage. Sully's revenue model is SaaS subscriptions
   to healthcare providers, hospitals, and digital health platforms.
 type: Index
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
