@@ -67,7 +67,7 @@ tags:
   - Cerner
   - HIPAA
   - AI Agents
-  - Workflow-Automation
+  - Workflow Automation
   - Healthcare Automation
 tags_raw:
   - Healthcare
@@ -94,6 +94,7 @@ tags_raw:
   - AI Agents
   - Workflow Automation
   - Healthcare Automation
+  - Workflow-Automation
 url: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
