@@ -1,4 +1,4 @@
-# sully-ai
+# Sully AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sully AI — AI medical scribe, clinical workflow automation, and a public REST API for healthcare providers
+Sully AI is a US-based healthcare AI company that ships a portfolio of "AI employees" for clinical and administrative work — including an AI Scribe that turns patient conversations into structured, HIPAA-compliant notes, an AI Receptionist for scheduling and front desk, an AI Triage Nurse for patient engagement, an AI Medical Coder for autonomous ICD-10 coding, an AI Pharmacist, and an AI Consultant for chart prep. The platform integrates with Epic, Cerner, MEDITECH, Athenahealth, Allscripts, Veradigm, and 50+ other EHRs. Beyond the end-user products, Sully exposes a public REST API covering audio transcription (file upload and real-time WebSocket streaming), clinical note generation (SOAP and custom templates), medical coding extraction (ICD-10, CPT, SNOMED), note templates, and a medical consensus alpha feature, with asynchronous results delivered over webhooks. Official Apache-2.0 licensed TypeScript/Node and Python SDKs are published under the sullyai GitHub org, and an Odiggo-maintained sully-api-demo repo showcases end-to-end usage. Sully's revenue model is SaaS subscriptions to healthcare providers, hospitals, and digital health platforms.
+
+**Areas:** Healthcare · Health Tech · Medical AI · Clinical AI · AI Scribe · Ambient Scribe · Clinical Documentation · SOAP Notes · Medical Coding · ICD-10 · CPT · SNOMED
+
+## Sully AI on APIs.io
+
+Everything profiled for Sully AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sully-ai/](https://apis.io/providers/sully-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Sully AI Scribe API](https://apis.io/apis/sully-ai/scribe/) — REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sully Ai Domain Security](https://apis.io/security/sully-ai/sully-ai-domain-security/)
+- [Sully Ai Trust Center](https://apis.io/security/sully-ai/sully-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sully Ai Plans Pricing](https://apis.io/plans/sully-ai/sully-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sully Ai Rate Limits](https://apis.io/rate-limits/sully-ai/sully-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sully.ai)
+- [Documentation](https://docs.sully.ai)
+- [Getting started](https://www.sully.ai/help-center/get-started)
+- [Pricing](https://docs.sully.ai/pricing)
+- [Changelog](https://www.sully.ai/release-notes)
+- [Blog](https://www.sully.ai/blog)
+- [Security](https://www.sully.ai/help-center/security)
+- [Compliance](https://trust.sully.ai/)
+- [Terms of service](https://www.sully.ai/terms-of-service)
+- [Privacy policy](https://www.sully.ai/privacy-policy)
+- [Status](https://status.sully.ai/)
+
+## API Evangelist rating
+
+**Kin Score 18.6** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 7.9 |
+
+**Agent readiness 6.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 13.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sully-ai/](https://apis.io/providers/sully-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sully AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sully-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
