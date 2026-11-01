@@ -87,18 +87,6 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Sully Ai Domain Security](https://apis.io/security/sully-ai/sully-ai-domain-security/)
 - [Sully Ai Trust Center](https://apis.io/security/sully-ai/sully-ai-trust-center/)
 
-#### Plans and pricing (1)
-
-Published plans, tiers and prices.
-
-- [Sully Ai Plans Pricing](https://apis.io/plans/sully-ai/sully-ai-plans-pricing/)
-
-#### Rate limits (1)
-
-Published request limits.
-
-- [Sully Ai Rate Limits](https://apis.io/rate-limits/sully-ai/sully-ai-rate-limits/)
-
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
